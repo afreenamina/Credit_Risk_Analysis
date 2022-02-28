@@ -76,4 +76,6 @@ Below are the Machine Learning Models used in this analysis -
 
 ### Summary: 
 
-From the above anlysis, I could recommend using EasyEnsembleClassifier model, as it has an accuracy score of 94% which is very impressive. And EasyEnsembleClassifier Sensitivity(recall) values is much higher for both low_risk and high_risk as High Sensitive data tend to be aggressive and they do a good job of detecting the intended targets.
+* All the models have low accuracy score, precison and recall values may be due to the imbalance in the data as low_risk is 68470 cases and High_risk is 347 cases only.
+
+* I could recommend using EasyEnsembleClassifier model, as it has an accuracy score of 94% which is very impressive. And EasyEnsembleClassifier Sensitivity(recall) values is much higher for both low_risk and high_risk as High Sensitive percentage means it had done a good job of detecting the intended targets.
